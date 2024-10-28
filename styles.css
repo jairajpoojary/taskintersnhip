@@ -1,0 +1,93 @@
+h2{
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    border-radius: 20%;
+  
+    background-color: rgb(151, 134, 134); 
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 2%;
+    width: 900px;
+    min-height: max-content;
+   
+}
+
+.application-form {
+    background-color: rgb(94, 64, 196); 
+    padding: 25px;
+    color: #ffffff;
+    
+}
+
+.application-form h2 {
+    text-align: center;
+    
+    margin-bottom: 50px;
+    background-color: white;
+    font-size: 1.5em;
+    color: #652b9f;  
+    padding: 20px; 
+    border-left: 5px solid rgb(94, 64, 196);
+    border-radius: 10%;
+}
+
+.application-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.heading-div{
+    background-color: white;
+}
+
+
+.application-form input[type="text"],
+.application-form input[type="email"],
+.application-form input[type="tel"],
+.application-form select,
+.application-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.application-form input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.gender-options {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.application-form input[type="radio"] {
+    margin-right: 15px;
+}
+
+.application-form button:hover {
+    text-align: center;
+    background-color: white;
+}
+.application-form button {
+    margin-left: auto;
+    border-radius: 25%;
+    display: block;
+}
